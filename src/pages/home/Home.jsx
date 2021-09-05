@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Home.module.css'
+import homeImage from '../homePage.png'
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
                 <button>Take A Tour</button>
             </section>
             <section className={classes.homeImage}>
-                <img src="" alt="home-page" />
+                <img src={homeImage} alt="home-page" />
             </section>
         </div>
     )
