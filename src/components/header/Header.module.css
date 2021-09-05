@@ -1,0 +1,32 @@
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px 10px 10px;
+    color: rgb(0, 74, 150);
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.logo img{
+    width: 100px;
+}
+.navbar{
+    width: 90%;
+}
+.navlinks{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+ }
+

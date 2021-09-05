@@ -1,12 +1,41 @@
 import React from 'react'
-import './Header.css'
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+import classes from  './Header.module.css';
+import logo from './LOGO.1.png';
+
+const Header = (props) => {
     return (
         <div>
-            <h1>Header</h1>
+        <header className={ classes.header }>
+            <div className={classes.logo}>
+                <img src={logo} alt=''></img>
+            </div>
+            <nav className={ classes.navbar}>
+                <ul className={ classes.navlinks}>
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/teams'>Our Team</Link>
+                    </li>
+                    <li>
+                        <Link to='/events'>Events</Link>
+                    </li>
+                    <li>
+                        <Link to='/blogs'>Blogs</Link>
+                    </li>
+                    <li>
+                        <Link to='/contact'>Contact us</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main className={classes.main}>
+         {props.children}
+        </main>
         </div>
-    )
+    );
 }
 
 export default Header
