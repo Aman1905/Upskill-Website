@@ -7,9 +7,12 @@ const Header = (props) => {
     return (
         <div>
         <header className={ classes.header }>
-            <div className={classes.logo}>
-                <img src="" alt="logo" />
-            </div>
+            <nav className="navbar navbar-light bg-light">
+                <a className="navbar-brand" style={{'padding-left':'10px'}} href="#">
+                    <img src="/images/LOGO.1.png" width="110" height="94" alt="Logo"/>
+                </a>
+            </nav>
+
             <nav className={ classes.navbar}>
                 <ul className={ classes.navlinks}>
                     <li>
@@ -25,7 +28,8 @@ const Header = (props) => {
                         <Link to='/blogs'>Blogs</Link>
                     </li>
                     <li>
-                        <Link to='/contact'>Contact us</Link>
+                        <Link to='/contact'>Contact Us</Link>
+
                     </li>
                 </ul>
             </nav>
