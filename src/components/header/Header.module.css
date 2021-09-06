@@ -14,30 +14,61 @@ a:hover{
 
 .header{
     width: 100vw;
-    height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 10px 10px 10px;
     color: rgb(0, 74, 150);
-    font-family: 'Poppins', sans-serif;
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: bolder;
-    box-shadow: 0 6px 4px 0 rgba(0,0,0,.2);
-    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    padding: 10px;
 }
 .navbar{
-    /* border: 1px solid black; */
-    width: 60%;
-    padding-right: "50px";
+    width: 80%;
+    /* background-color: aliceblue; */
+}
+
+.logo img{
+    width: 100px;
 }
 .navlinks{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    font-size: 1.7rem;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
 }
 
 
 
+ @media only screen and (max-width: 790px) {
+    /* For IPad */
+    .header{
+        font-size: 1.7rem;
+        width: 100vw;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    /* For large screen phones: */
+    .header{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .navlinks{
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 321px) {
+    /* For small screen phones */
+    .navlinks{
+        font-size: .8rem;
+    }
+}
