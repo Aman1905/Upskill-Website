@@ -2,17 +2,16 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 import classes from  './Header.module.css';
-import logo from './LOGO.1.png';
 
 const Header = (props) => {
     return (
         <div>
-        <header className={ classes.header }>
+        <header className={ classes.header}>
             <div className={classes.logo}>
-                <img src={logo} alt=''></img>
+                <img src={process.env.PUBLIC_URL + '/image/LOGO.1.png'} alt="home-page" />
             </div>
-            <nav className={ classes.navbar}>
-                <ul className={ classes.navlinks}>
+            <nav className={classes.navbar}>
+                <ul className={classes.navlinks}>
                     <li>
                         <Link to='/'>Home</Link>
                     </li>

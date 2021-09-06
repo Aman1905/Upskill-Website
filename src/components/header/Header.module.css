@@ -7,26 +7,59 @@ a{
 }
 .header{
     width: 100vw;
-    height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 40px 10px 10px 10px;
     color: rgb(0, 74, 150);
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: bolder;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+.navbar{
+    width: 80%;
+    /* background-color: aliceblue; */
 }
 
 .logo img{
     width: 100px;
 }
-.navbar{
-    width: 90%;
-}
 .navlinks{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
  }
 
+ @media only screen and (max-width: 790px) {
+    /* For IPad */
+    .header{
+        font-size: 1.7rem;
+        width: 100vw;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    /* For large screen phones: */
+    .header{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .navlinks{
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 321px) {
+    /* For small screen phones */
+    .navlinks{
+        font-size: .8rem;
+    }
+}
