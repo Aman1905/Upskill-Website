@@ -1,39 +1,48 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import classes from  './Header.module.css';
+import React from "react"
+import { NavLink } from "react-router-dom"
+import './Header.css'
 
-const Header = (props) => {
+const Header = () => {
     return (
-        <div>
-        <header className={ classes.header}>
-            <div className={classes.logo}>
-                <img src={process.env.PUBLIC_URL + '/image/LOGO.1.png'} alt="home-page" />
-            </div>
-            <nav className={classes.navbar}>
-                <ul className={classes.navlinks}>
-                    <li>
-                        <Link to='/'>Home</Link>
+      <>
+      <div className="container-fluid nav_bg">
+        <div className="row">
+          <div className="col-12 mx-auto">
+            <nav className="navbar navbar-expand-lg navbar-light ">
+              <div className="container-fluid">
+
+                <NavLink exact className="navbar-brand" to="/">Upskill</NavLink>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                </button>
+
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul className="navbar-nav ms-auto mb-2 mb-lg-0 mt-0">
+
+                    <li className="nav-item">
+                    <NavLink exact activeClassName="menu_active" className="nav-link" to="/events">Events</NavLink>
                     </li>
-                    <li>
-                        <Link to='/teams'>Our Team</Link>
+
+                    <li className="nav-item">
+                    <NavLink exact activeClassName="menu_active" className="nav-link" to="/teams">Team</NavLink>
                     </li>
-                    <li>
-                        <Link to='/events'>Events</Link>
+
+                    <li className="nav-item">
+                    <NavLink exact activeClassName="menu_active" className="nav-link" to="/blogs">Blogs</NavLink>
                     </li>
-                    <li>
-                        <Link to='/blogs'>Blogs</Link>
+
+                    <li className="nav-item">
+                    <NavLink exact activeClassName="menu_active" className="nav-link" to="/contact">Contact Us</NavLink>
                     </li>
-                    <li>
-                        <Link to='/contact'>Contact Us</Link>
-                    </li>
-                </ul>
+                  </ul>
+                </div>
+              </div>
             </nav>
-        </header>
-        <main className={classes.main}>
-         {props.children}
-        </main>
+          </div> 
         </div>
-    );
+      </div>
+      </>
+    )
 }
 
 export default Header

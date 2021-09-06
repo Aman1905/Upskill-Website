@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Header from './components/header/Header'
 import Home from './pages/home/Home';
 import Blogs from './pages/blogs/Blog';
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/events' component={Events} exact></Route>
           <Route path='/teams' component={Teams} exact></Route>
           <Route path='/contact' component={Contact} exact></Route>
+          <Redirect to='/' />
         </Switch>
     </Router>
     </>
