@@ -6,7 +6,8 @@ const Home = () => {
         <div className={classes.container}>
             <section className={ classes.homeText }>
                 <div className={classes.heading}>
-                    Gain <div className={classes.blueText}>Skills</div> <br /> <div className={classes.blueText}>Not</div> Certificates
+                    Gain <div className={classes.blueText}>Skills</div> <br /> 
+                      <div className={classes.blueText}>Not</div> Certificates
                 </div>
                 <div className={classes.desc}>
                     We with the aim to upskill students are providing technical

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/header/Header'
 import Home from './pages/home/Home';
@@ -10,28 +10,18 @@ import Teams from './pages/teams/Team';
 
 const App = () => {
   return (
-    <div>
-      <Header>
+    <>
+    <Router>
+      <Header />
         <Switch>
-          <Route path='/' exact>
-            <Home />
-          </Route>
-          <Route path='/blogs' exact>
-            <Blogs />
-          </Route>
-          <Route path='/events' exact>
-            <Events />
-          </Route>
-          <Route path='/teams' exact>
-            <Teams />
-          </Route>
-          <Route path='/contact' exact>
-            <Contact />
-          </Route>
-      </Switch>
-    </Header>
-    </div>
+          <Route path="/" component={Home} exact></Route>
+          <Route path="/blogs" component={Blogs} exact></Route>
+          <Route path='/events' component={Events} exact></Route>
+          <Route path='/teams' component={Teams} exact></Route>
+          <Route path='/contact' component={Contact} exact></Route>
+        </Switch>
+    </Router>
+    </>
   );
 }
-
-export default App
+export default App;
