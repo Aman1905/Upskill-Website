@@ -1,5 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import logo1 from "../../images/logo1.png"
 import './Header.css'
 
 const Header = () => {
@@ -7,11 +8,13 @@ const Header = () => {
       <>
       <div className="container-fluid nav_bg">
         <div className="row">
-          <div className="col-12 mx-auto">
+          <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light ">
               <div className="container-fluid">
 
-                <NavLink exact className="navbar-brand" to="/">Upskill</NavLink>
+                <NavLink exact className="navbar-brand" to="/">
+                <img src={logo1} alt="upskill" className="navbar-brand" />
+                </NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
