@@ -1,3 +1,8 @@
-h1 {
-    color: aqua;
+.contact-heading {
+    color: #3498db;
+    font-weight: 800;
 }
+
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
