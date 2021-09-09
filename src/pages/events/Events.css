@@ -1,3 +1,4 @@
-h1 {
-    color: black;
+.events-heading {
+    color: #3498db;
+    font-weight: 800;
 }

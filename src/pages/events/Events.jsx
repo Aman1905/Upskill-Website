@@ -3,9 +3,11 @@ import './Events.css'
 
 const Events = () => {
     return (
-        <div>
-            <h1>Events Page</h1>
-        </div>
+        <>
+        <div className="my-5">
+                <h1 className="text-center events-heading">Our Events</h1>
+            </div>
+        </>
     )
 }
 
