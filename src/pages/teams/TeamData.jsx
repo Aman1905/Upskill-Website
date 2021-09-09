@@ -18,7 +18,7 @@ const TeamData = [
         name: "Sammarth Patil",
         designation: "Co-Founder",
         imgsrc: sammarth,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171",
+        l_link: "https://www.linkedin.com/in/samarth-patil3060",
     },
 
     {
@@ -26,7 +26,7 @@ const TeamData = [
         name: "Aarya Patil",
         designation: "Co-Founder",
         imgsrc: aarya,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/aarya-patil-7bb678170",
     },
     
     {
@@ -34,7 +34,7 @@ const TeamData = [
         name: "Aarya Jayendra Khot",
         designation: "Administration Head",
         imgsrc: aarya1,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/aarya-khot-846a38213",
     },
 
     {
@@ -42,7 +42,7 @@ const TeamData = [
         name: "Meghna M C",
         designation: "PR Head",
         imgsrc: meghna,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/meghna-mc",
     },
 
     {
@@ -50,7 +50,7 @@ const TeamData = [
         name: "Harshitha Reddy",
         designation: "Collaboration Head",
         imgsrc: harshitha,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/harshitha-a-reddy",
     },
     
     {
@@ -66,7 +66,7 @@ const TeamData = [
         name: "Gayatri R Bhosale",
         designation: "Social Media Head",
         imgsrc: gayatri,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/gayatri-bhosale-b564a3201",
     },
 
     {
@@ -74,7 +74,7 @@ const TeamData = [
         name: "Saadhana Srinath",
         designation: "Graphics Head - Linkedin",
         imgsrc: saadhna,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/saadhana-srinath-6359581b3/",
     },
     
     {
@@ -82,7 +82,7 @@ const TeamData = [
         name: "Harnish Savsani",
         designation: "Graphics Head - Instagram",
         imgsrc: harnish,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/harnishsavsani/",
     },
 
     {
@@ -90,7 +90,7 @@ const TeamData = [
         name: "Abhishek Vijay Potekar",
         designation: "Graphics and Certification Lead",
         imgsrc: abhi,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/abhishek-p-027126193/",
     },
 
     {
@@ -98,7 +98,7 @@ const TeamData = [
         name: "Saad R. Sheikh",
         designation: "Video Editing Lead",
         imgsrc: saad,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/saad-shaikh-128a59200",
     },
     
     {
@@ -106,7 +106,7 @@ const TeamData = [
         name: "Paras Gupta",
         designation: "Social Media Manager",
         imgsrc: paras,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/parasshares/",
     },
 
     {
@@ -114,7 +114,7 @@ const TeamData = [
         name: "Kishore Theeraj V J",
         designation: "Program head",
         imgsrc: kishore,
-        l_link: "https://www.linkedin.com/in/aman-chopra-375a81171/",
+        l_link: "https://www.linkedin.com/in/kishoretheeraj",
     },
 ]
 

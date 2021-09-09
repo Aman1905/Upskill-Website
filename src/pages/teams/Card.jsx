@@ -17,8 +17,8 @@ const Card = (props) => {
                     </div>
 
                     <ul className="social">
-                        <li><a href={props.t_link} className="fa fa-twitter"  target="blank"></a></li>
-                        <li><a href={props.g_link} className="fa fa-github"  target="blank"></a></li>
+                        {/* <li><a href={props.t_link} className="fa fa-twitter"  target="blank"></a></li> */}
+                        {/* <li><a href={props.g_link} className="fa fa-github"  target="blank"></a></li> */}
                         <li><a href={props.l_link} className="fa fa-linkedin"  target="blank"></a></li>
                     </ul>
                 </div>
