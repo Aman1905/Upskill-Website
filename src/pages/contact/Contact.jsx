@@ -27,6 +27,7 @@ const Contact = () => {
         emailjs.sendForm('service_nxdvvz1', 'template_btx4tzx', e.target, 'user_Mis6CFxjvDLsIYCXs6ard')
           .then((result) => {
               console.log("message send success");
+              alert(`thank you ${data.name} for your message`);
           }, (error) => {
               console.log(error.text);
           });
