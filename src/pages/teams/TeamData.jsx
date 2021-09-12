@@ -9,7 +9,7 @@ import kishore from "../../images/kishore.jpg"
 import meghna from "../../images/meghna.jpg"
 import paras from "../../images/paras.jpeg"
 import sammarth from "../../images/sammarth.jpeg"
-import saad from "../../images/saad.jpeg"
+import saad from "../../images/saad.jpg"
 import saadhna from "../../images/saadhna.jpg"
 
 const TeamData = [
@@ -95,7 +95,7 @@ const TeamData = [
 
     {
         id: 11,
-        name: "Saad R. Sheikh",
+        name: "Saad R. Shaikh",
         designation: "Video Editing Lead",
         imgsrc: saad,
         l_link: "https://www.linkedin.com/in/saad-shaikh-128a59200",
