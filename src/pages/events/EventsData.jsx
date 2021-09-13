@@ -54,7 +54,7 @@ const EventsData = [
         id: 6,
         imgsrc: "",
         title: "Python Bootcamp",
-        speaker: "Priya Sharma & Sakalya Mitra",
+        speaker: "Priya Sharma, Sakalya Mitra & Pragya Khanna",
         dates: "12-07-2021 to 26-07-2021",
         description: "Core Python, dJango ,Projects",
         category: "bootcamp",
